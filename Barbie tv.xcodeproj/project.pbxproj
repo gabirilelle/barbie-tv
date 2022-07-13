@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C274A09287D95F400FE7DA0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A08287D95F400FE7DA0 /* Movie.swift */; };
+		9C274A10287DA4B600FE7DA0 /* Movie+Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A0B287DA4B600FE7DA0 /* Movie+Popular.swift */; };
+		9C274A11287DA4B600FE7DA0 /* Movie+Upcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A0C287DA4B600FE7DA0 /* Movie+Upcoming.swift */; };
+		9C274A12287DA4B600FE7DA0 /* Movie+TrendingThisWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A0D287DA4B600FE7DA0 /* Movie+TrendingThisWeek.swift */; };
+		9C274A13287DA4B600FE7DA0 /* Movie+NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A0E287DA4B600FE7DA0 /* Movie+NowPlaying.swift */; };
+		9C274A14287DA4B600FE7DA0 /* Movie+TrendingToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A0F287DA4B600FE7DA0 /* Movie+TrendingToday.swift */; };
+		9C274A16287DC15C00FE7DA0 /* FeaturedViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C274A15287DC15C00FE7DA0 /* FeaturedViewController+UICollectionViewDataSource.swift */; };
+		9CA6E1B2287EF21000B95C8B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6E1B1287EF21000B95C8B /* DetailsViewController.swift */; };
+		9CA6E1B4287EF4B100B95C8B /* FeaturedViewController+UICollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6E1B3287EF4B100B95C8B /* FeaturedViewController+UICollectionViewDelegate.swift */; };
+		9CB9E9A9287C45DC00072B14 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9E9A8287C45DC00072B14 /* PopularCollectionViewCell.swift */; };
+		9CB9E9AB287C467D00072B14 /* NowPlayingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9E9AA287C467D00072B14 /* NowPlayingCollectionViewCell.swift */; };
+		9CD5673528745F270070B97F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5673428745F270070B97F /* AppDelegate.swift */; };
+		9CD5673728745F270070B97F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5673628745F270070B97F /* SceneDelegate.swift */; };
+		9CD5673928745F270070B97F /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5673828745F270070B97F /* FeaturedViewController.swift */; };
+		9CD5673C28745F270070B97F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5673A28745F270070B97F /* Main.storyboard */; };
+		9CD5673E28745F280070B97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5673D28745F280070B97F /* Assets.xcassets */; };
+		9CD5674128745F280070B97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5673F28745F280070B97F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C274A08287D95F400FE7DA0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = "Barbie tv/Model/Movie.swift"; sourceTree = SOURCE_ROOT; };
+		9C274A0B287DA4B600FE7DA0 /* Movie+Popular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+Popular.swift"; sourceTree = "<group>"; };
+		9C274A0C287DA4B600FE7DA0 /* Movie+Upcoming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+Upcoming.swift"; sourceTree = "<group>"; };
+		9C274A0D287DA4B600FE7DA0 /* Movie+TrendingThisWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+TrendingThisWeek.swift"; sourceTree = "<group>"; };
+		9C274A0E287DA4B600FE7DA0 /* Movie+NowPlaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+NowPlaying.swift"; sourceTree = "<group>"; };
+		9C274A0F287DA4B600FE7DA0 /* Movie+TrendingToday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+TrendingToday.swift"; sourceTree = "<group>"; };
+		9C274A15287DC15C00FE7DA0 /* FeaturedViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeaturedViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		9CA6E1B1287EF21000B95C8B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9CA6E1B3287EF4B100B95C8B /* FeaturedViewController+UICollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeaturedViewController+UICollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		9CB9E9A8287C45DC00072B14 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CB9E9AA287C467D00072B14 /* NowPlayingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CD5673128745F270070B97F /* Barbie tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barbie tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD5673428745F270070B97F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CD5673628745F270070B97F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CD5673828745F270070B97F /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		9CD5673B28745F270070B97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CD5673D28745F280070B97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CD5674028745F280070B97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CD5674228745F280070B97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD5672E28745F270070B97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C274A0A287D960300FE7DA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C274A08287D95F400FE7DA0 /* Movie.swift */,
+				9C274A0E287DA4B600FE7DA0 /* Movie+NowPlaying.swift */,
+				9C274A0B287DA4B600FE7DA0 /* Movie+Popular.swift */,
+				9C274A0D287DA4B600FE7DA0 /* Movie+TrendingThisWeek.swift */,
+				9C274A0F287DA4B600FE7DA0 /* Movie+TrendingToday.swift */,
+				9C274A0C287DA4B600FE7DA0 /* Movie+Upcoming.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CB9E9AC287C46FF00072B14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5673828745F270070B97F /* FeaturedViewController.swift */,
+				9C274A15287DC15C00FE7DA0 /* FeaturedViewController+UICollectionViewDataSource.swift */,
+				9CA6E1B3287EF4B100B95C8B /* FeaturedViewController+UICollectionViewDelegate.swift */,
+				9CA6E1B1287EF21000B95C8B /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9CB9E9AD287C472E00072B14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5673A28745F270070B97F /* Main.storyboard */,
+				9CD5673F28745F280070B97F /* LaunchScreen.storyboard */,
+				9CB9E9A8287C45DC00072B14 /* PopularCollectionViewCell.swift */,
+				9CB9E9AA287C467D00072B14 /* NowPlayingCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CB9E9AF287C48BD00072B14 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5673D28745F280070B97F /* Assets.xcassets */,
+				9CD5674228745F280070B97F /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9CD5672828745F270070B97F = {
+			isa = PBXGroup;
+			children = (
+				9CD5673328745F270070B97F /* Barbie tv */,
+				9CB9E9AD287C472E00072B14 /* View */,
+				9CD5673228745F270070B97F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD5673228745F270070B97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5673128745F270070B97F /* Barbie tv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD5673328745F270070B97F /* Barbie tv */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5673428745F270070B97F /* AppDelegate.swift */,
+				9CD5673628745F270070B97F /* SceneDelegate.swift */,
+				9C274A0A287D960300FE7DA0 /* Model */,
+				9CB9E9AF287C48BD00072B14 /* SupportingFiles */,
+				9CB9E9AC287C46FF00072B14 /* Controllers */,
+			);
+			path = "Barbie tv";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD5673028745F270070B97F /* Barbie tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD5674528745F280070B97F /* Build configuration list for PBXNativeTarget "Barbie tv" */;
+			buildPhases = (
+				9CD5672D28745F270070B97F /* Sources */,
+				9CD5672E28745F270070B97F /* Frameworks */,
+				9CD5672F28745F270070B97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barbie tv";
+			productName = "Barbie tv";
+			productReference = 9CD5673128745F270070B97F /* Barbie tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CD5672928745F270070B97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9CD5673028745F270070B97F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9CD5672C28745F270070B97F /* Build configuration list for PBXProject "Barbie tv" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CD5672828745F270070B97F;
+			productRefGroup = 9CD5673228745F270070B97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CD5673028745F270070B97F /* Barbie tv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD5672F28745F270070B97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD5674128745F280070B97F /* LaunchScreen.storyboard in Resources */,
+				9CD5673E28745F280070B97F /* Assets.xcassets in Resources */,
+				9CD5673C28745F270070B97F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD5672D28745F270070B97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB9E9AB287C467D00072B14 /* NowPlayingCollectionViewCell.swift in Sources */,
+				9CB9E9A9287C45DC00072B14 /* PopularCollectionViewCell.swift in Sources */,
+				9C274A14287DA4B600FE7DA0 /* Movie+TrendingToday.swift in Sources */,
+				9C274A09287D95F400FE7DA0 /* Movie.swift in Sources */,
+				9C274A16287DC15C00FE7DA0 /* FeaturedViewController+UICollectionViewDataSource.swift in Sources */,
+				9C274A12287DA4B600FE7DA0 /* Movie+TrendingThisWeek.swift in Sources */,
+				9CD5673928745F270070B97F /* FeaturedViewController.swift in Sources */,
+				9C274A11287DA4B600FE7DA0 /* Movie+Upcoming.swift in Sources */,
+				9CA6E1B4287EF4B100B95C8B /* FeaturedViewController+UICollectionViewDelegate.swift in Sources */,
+				9C274A13287DA4B600FE7DA0 /* Movie+NowPlaying.swift in Sources */,
+				9CD5673528745F270070B97F /* AppDelegate.swift in Sources */,
+				9C274A10287DA4B600FE7DA0 /* Movie+Popular.swift in Sources */,
+				9CA6E1B2287EF21000B95C8B /* DetailsViewController.swift in Sources */,
+				9CD5673728745F270070B97F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CD5673A28745F270070B97F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD5673B28745F270070B97F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CD5673F28745F280070B97F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD5674028745F280070B97F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CD5674328745F280070B97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CD5674428745F280070B97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD5674628745F280070B97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SZCC7LU4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barbie tv/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.Barbie-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CD5674728745F280070B97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SZCC7LU4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barbie tv/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.Barbie-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CD5672C28745F270070B97F /* Build configuration list for PBXProject "Barbie tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD5674328745F280070B97F /* Debug */,
+				9CD5674428745F280070B97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD5674528745F280070B97F /* Build configuration list for PBXNativeTarget "Barbie tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD5674628745F280070B97F /* Debug */,
+				9CD5674728745F280070B97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CD5672928745F270070B97F /* Project object */;
+}
