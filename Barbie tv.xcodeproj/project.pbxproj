@@ -125,8 +125,8 @@
 			children = (
 				9CD5673428745F270070B97F /* AppDelegate.swift */,
 				9CD5673628745F270070B97F /* SceneDelegate.swift */,
-				9C274A0A287D960300FE7DA0 /* Model */,
 				9CB9E9AF287C48BD00072B14 /* SupportingFiles */,
+				9C274A0A287D960300FE7DA0 /* Model */,
 				9CB9E9AC287C46FF00072B14 /* Controllers */,
 			);
 			path = "Barbie tv";
