@@ -26,6 +26,7 @@
 		9CD5674128745F280070B97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5673F28745F280070B97F /* LaunchScreen.storyboard */; };
 		9CFDA47C28819818002FAC6D /* TMDB-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDA47B28819818002FAC6D /* TMDB-Info.plist */; };
 		9CFDA47E28819DAA002FAC6D /* Movie+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDA47D28819DAA002FAC6D /* Movie+API.swift */; };
+		9CFDA4802881AE8A002FAC6D /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDA47F2881AE8A002FAC6D /* MovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9CD5674228745F280070B97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CFDA47B28819818002FAC6D /* TMDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMDB-Info.plist"; sourceTree = "<group>"; };
 		9CFDA47D28819DAA002FAC6D /* Movie+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+API.swift"; sourceTree = "<group>"; };
+		9CFDA47F2881AE8A002FAC6D /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				9C274A0D287DA4B600FE7DA0 /* Movie+TrendingThisWeek.swift */,
 				9C274A0F287DA4B600FE7DA0 /* Movie+TrendingToday.swift */,
 				9C274A0C287DA4B600FE7DA0 /* Movie+Upcoming.swift */,
+				9CFDA47F2881AE8A002FAC6D /* MovieResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				9C274A13287DA4B600FE7DA0 /* Movie+NowPlaying.swift in Sources */,
 				9CD5673528745F270070B97F /* AppDelegate.swift in Sources */,
 				9C274A10287DA4B600FE7DA0 /* Movie+Popular.swift in Sources */,
+				9CFDA4802881AE8A002FAC6D /* MovieResponse.swift in Sources */,
 				9CA6E1B2287EF21000B95C8B /* DetailsViewController.swift in Sources */,
 				9CD5673728745F270070B97F /* SceneDelegate.swift in Sources */,
 			);

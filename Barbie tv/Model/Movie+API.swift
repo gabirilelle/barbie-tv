@@ -8,7 +8,35 @@
 import Foundation
 
 extension Movie {
-
+    
+    static let urlComponents = URLComponents(string: "https://api.themoviedb.org/")!
+    
+    static func popularMoviesAPI() async -> [Movie] {
+        
+        var components = Movie.urlComponents
+        components.path = "/3/movie/popular"
+        components.queryItems = [
+            URLQueryItem(name: "api_key", value: Movie.apiKey)
+        ]
+        
+        let session = URLSession.shared
+        
+        do {
+            let(data, response) = try await session.data(from: components.url!)
+            
+            let decoder = JSONDecoder()
+            
+            let movieResult = try decoder.decode(MovieRespose.self, from: data)
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            return movieResult.results
+            
+        } catch {
+            print(error)
+        }
+        
+        return []
+    }
+    
     // MARK: - Recuperando a chave da API de um arquivo
     static var apiKey: String {
         guard let url = Bundle.main.url(forResource: "TMDB-Info", withExtension: "plist") else {
