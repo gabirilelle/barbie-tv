@@ -15,7 +15,7 @@ extension FeaturedViewController: UICollectionViewDataSource {
         } else if collectionView == self.nowPlayingCollectionView {
             return nowPlayingMovies.count
         } else if collectionView == self.upcomingCollectionView {
-            return nowPlayingMovies.count
+            return upcomingMovies.count
         } else { return 0
         }
     }
@@ -25,16 +25,23 @@ extension FeaturedViewController: UICollectionViewDataSource {
             return makePopularCell(indexPath)
         } else if collectionView == self.nowPlayingCollectionView {
             return makeNowPlayingCell(collectionView, indexPath)
-        } else { return UICollectionViewCell()
+        } else if collectionView == self.upcomingCollectionView{
+            return makeUpcomingCell(collectionView, indexPath)
+        } else {
+            return UICollectionViewCell()
         }
     }
+    
+    
+    
+    
     
     fileprivate func makePopularCell(_ indexPath: IndexPath) -> UICollectionViewCell {
         let cell = popularCollectionView.dequeueReusableCell(withReuseIdentifier: PopularCollectionViewCell.cellIdentifier, for: indexPath) as? PopularCollectionViewCell
         
         let movie = popularMovies[indexPath.item]
         cell?.setup(title: movie.title, image: UIImage(named: popularMovies[indexPath.item].backdropPath) ?? UIImage())
-       
+        
         
         
         return cell ?? PopularCollectionViewCell()
@@ -52,5 +59,16 @@ extension FeaturedViewController: UICollectionViewDataSource {
         return cell ?? NowPlayingCollectionViewCell()
     }
     
-    
+    fileprivate func makeUpcomingCell(_ collectionView: UICollectionView, _ indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: UpcomingCollectionViewCell.cellIdentifier, for: indexPath) as? UpcomingCollectionViewCell
+        
+        let year: String = "\(upcomingMovies[indexPath.item].releaseDate.prefix(4))"
+        
+        cell?.setup(title: upcomingMovies[indexPath.item].title,
+                    year: year,
+                    image: UIImage(named: upcomingMovies[indexPath.item].posterPath) ?? UIImage())
+        
+        return cell ?? UpcomingCollectionViewCell()
+    }
+   
 }
