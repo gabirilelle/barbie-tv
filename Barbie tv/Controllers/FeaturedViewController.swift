@@ -9,7 +9,7 @@ import UIKit
 
 class FeaturedViewController: UIViewController {
     
-    var popularMovies: [Movie] = [] // Movie.popularMovies()
+    var popularMovies: [Movie] = Movie.popularMovies()
     let nowPlayingMovies = Movie.nowPlayingMovies()
     
     @IBOutlet weak var popularCollectionView: UICollectionView!
@@ -27,12 +27,6 @@ class FeaturedViewController: UIViewController {
         
         //   upcomingCollectionView.dataSource = self
         //   upcomingCollectionView.delegate = self
-        
-        Task{
-            popularMovies = await Movie.popularMoviesAPI()
-            self.popularCollectionView.reloadData()
-            
-        }
         
      
     }

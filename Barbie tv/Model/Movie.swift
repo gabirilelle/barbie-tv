@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Movie: Codable {
+struct Movie {
     let title: String
     let posterPath: String
     let backdropPath: String
