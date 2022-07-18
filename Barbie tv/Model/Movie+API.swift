@@ -25,9 +25,9 @@ extension Movie {
             let(data, response) = try await session.data(from: components.url!)
             
             let decoder = JSONDecoder()
-            
-            let movieResult = try decoder.decode(MovieRespose.self, from: data)
             decoder.keyDecodingStrategy = .convertFromSnakeCase
+            let movieResult = try decoder.decode(MovieRespose.self, from: data)
+           
             return movieResult.results
             
         } catch {
@@ -36,6 +36,28 @@ extension Movie {
         
         return []
     }
+    
+    // MARK: - Download de imagens
+    static func downloadImageData(withPath: String) async -> Data {
+        let urlString = "https://image.tmdb.org/t/p/w780\(withPath)"
+        let url: URL = URL(string: urlString)!
+        
+        let session = URLSession.shared
+        session.configuration.requestCachePolicy = .returnCacheDataElseLoad
+        
+        do {
+            let (imageData, response) = try await session.data(from: url)
+            
+            return imageData
+            
+        } catch {
+            print(error)
+        }
+        
+        
+        return Data()
+    }
+    
     
     // MARK: - Recuperando a chave da API de um arquivo
     static var apiKey: String {

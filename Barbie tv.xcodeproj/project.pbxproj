@@ -116,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				9CD5673328745F270070B97F /* Barbie tv */,
-				9CB9E9AD287C472E00072B14 /* View */,
 				9CD5673228745F270070B97F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +135,7 @@
 				9CD5673628745F270070B97F /* SceneDelegate.swift */,
 				9CB9E9AF287C48BD00072B14 /* SupportingFiles */,
 				9C274A0A287D960300FE7DA0 /* Model */,
+				9CB9E9AD287C472E00072B14 /* View */,
 				9CB9E9AC287C46FF00072B14 /* Controllers */,
 			);
 			path = "Barbie tv";
