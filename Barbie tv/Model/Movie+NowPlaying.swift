@@ -2,265 +2,148 @@
 import Foundation
 
 extension Movie {
-
+    
     static func nowPlayingMovies() -> [Movie] {
         return [
-    Movie(
-        title: "Doctor Strange in the Multiverse of Madness",
-        posterPath: "9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
-        backdropPath: "wcKFYIiVDvRURrzglV9kGu7fpfY.jpg",
-        voteAverage: 7.5,
-        releaseDate: "2022-05-04",
-        overview: "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
-        genres: [
-            "Fantasy",
-            "Action",
-            "Adventure"
-        ]
-    ),
-    Movie(
-        title: "Dog",
-        posterPath: "rkpLvPDe0ZE62buUS32exdNr7zD.jpg",
-        backdropPath: "t0mwKhUDa62hdhdKSsN4xMfhY5Z.jpg",
-        voteAverage: 7.4,
-        releaseDate: "2022-02-17",
-        overview: "An army ranger and his dog embark on a road trip along the Pacific Coast Highway to attend a friend's funeral.",
-        genres: [
-            "Drama",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Morbius",
-        posterPath: "6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
-        backdropPath: "gG9fTyDL03fiKnOpf2tr01sncnt.jpg",
-        voteAverage: 6.5,
-        releaseDate: "2022-03-30",
-        overview: "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
-        genres: [
-            "Action",
-            "Science Fiction",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "The Lost City",
-        posterPath: "neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
-        backdropPath: "1Ds7xy7ILo8u2WWxdnkJth1jQVT.jpg",
-        voteAverage: 6.8,
-        releaseDate: "2022-03-24",
-        overview: "A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Memory",
-        posterPath: "4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
-        backdropPath: "vjnLXptqdxnpNJer5fWgj2OIGhL.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-28",
-        overview: "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
-        genres: [
-            "Action",
-            "Thriller",
-            "Crime"
-        ]
-    ),
-    Movie(
-        title: "Collision",
-        posterPath: "4zsihgkxMZ7MrflNCjkD3ySFJtc.jpg",
-        backdropPath: "qBu6blwnOA75Hz61QHrNe8unUNw.jpg",
-        voteAverage: 5.9,
-        releaseDate: "2022-06-16",
-        overview: "Over the course of one fateful day, a corrupt businessman and his socialite wife race to save their daughter from a notorious crime lord.",
-        genres: [
-            "Thriller",
-            "Crime",
-            "Drama"
-        ]
-    ),
-    Movie(
-        title: "Jurassic World Dominion",
-        posterPath: "kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
-        backdropPath: "wo3l9p0S7pcvwlzlndtKgq0peRJ.jpg",
-        voteAverage: 6.7,
-        releaseDate: "2022-06-01",
-        overview: "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Science Fiction"
-        ]
-    ),
-    Movie(
-        title: "The Black Phone",
-        posterPath: "bxHZpV02OOu9vq3sb3MsOudEnYc.jpg",
-        backdropPath: "GLLgrghu7wSPaSjl2Rw4kjASOJ.jpg",
-        voteAverage: 7.2,
-        releaseDate: "2022-06-18",
-        overview: "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
-        genres: [
-            "Horror",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Panama",
-        posterPath: "u9DzgsmssidygWuORgYzhi317vj.jpg",
-        backdropPath: "trtFAmf4IcndxSh5tIfLwxPyW67.jpg",
-        voteAverage: 5.9,
-        releaseDate: "2022-03-17",
-        overview: "An ex-marine is hired by a defense contractor to travel to Panama to complete an arms deal. In the process he becomes involved with the U.S. invasion of Panama, and learns an important lesson about the true nature of political power.",
-        genres: [
-            "Action",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "The Northman",
-        posterPath: "zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
-        backdropPath: "cqnVuxXe6vA7wfNWubak3x36DKJ.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-07",
-        overview: "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "Uncharted",
-        posterPath: "rJHC1RUORuUhtfNb4Npclx0xnOf.jpg",
-        backdropPath: "aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
-        voteAverage: 7.1,
-        releaseDate: "2022-02-10",
-        overview: "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
-        genres: [
-            "Action",
-            "Adventure"
-        ]
-    ),
-    Movie(
-        title: "The Desperate Hour",
-        posterPath: "u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg",
-        backdropPath: "qp8qKiP7Q7zK4z3LItwWMHfV9kJ.jpg",
-        voteAverage: 6,
-        releaseDate: "2021-09-12",
-        overview: "A woman desperately races to save her child after police place her hometown on lockdown due to an active shooter incident.",
-        genres: [
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Hustle",
-        posterPath: "fVf4YHHkRfo1uuljpWBViEGmaUQ.jpg",
-        backdropPath: "hGr0FrLI74vqpBWTBOPloDBwOAK.jpg",
-        voteAverage: 7.9,
-        releaseDate: "2022-06-03",
-        overview: "After discovering a once-in-a-lifetime player with a rocky past abroad, a down on his luck basketball scout takes it upon himself to bring the phenom to the States without his team's approval. Against the odds, they have one final shot to prove they have what it takes to make it in the NBA.",
-        genres: [
-            "Drama",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "The Unbearable Weight of Massive Talent",
-        posterPath: "aqhLeieyTpTUKPOfZ3jzo2La0Mq.jpg",
-        backdropPath: "m0YjB4VfghKey8Ppsmz8qCd0v1m.jpg",
-        voteAverage: 7.1,
-        releaseDate: "2022-04-20",
-        overview: "Creatively unfulfilled and facing financial ruin, Nick Cage must accept a $1 million offer to attend the birthday of a dangerous superfan. Things take a wildly unexpected turn when Cage is recruited by a CIA operative and forced to live up to his own legend, channeling his most iconic and beloved on-screen characters in order to save himself and his loved ones.",
-        genres: [
-            "Action",
-            "Comedy",
-            "Crime"
-        ]
-    ),
-    Movie(
-        title: "A Day to Die",
-        posterPath: "8Kce1utfytAG5m1PbtVoDzmDZJH.jpg",
-        backdropPath: "hcNM0HjfPonIzOVy6LVTDBXSfMq.jpg",
-        voteAverage: 6.3,
-        releaseDate: "2022-03-04",
-        overview: "A disgraced parole officer is indebted to a local gang leader and forced to pull off a series of dangerous drug heists within twelve hours in order to pay the $2 million dollars he owes, rescue his kidnapped pregnant wife, and settle a score with the city's corrupt police chief, who is working with the gang leader and double-crossed him years ago.",
-        genres: [
-            "Action",
-            "Thriller",
-            "Crime"
-        ]
-    ),
-    Movie(
-        title: "Interceptor",
-        posterPath: "cpWUtkcgRKeauhTyVMjYHxAutp4.jpg",
-        backdropPath: "i2tcQ9nDJpdJELPA82eCd7Irasd.jpg",
-        voteAverage: 6.3,
-        releaseDate: "2022-05-26",
-        overview: "A U.S. Army Captain uses her years of tactical training to save humanity from sixteen nuclear missiles launched at the U.S. as a violent attack threatens her remote missile interceptor station.",
-        genres: [
-            "Action",
-            "Thriller",
-            "Adventure"
-        ]
-    ),
-    Movie(
-        title: "Dragon Ball Super: Super Hero",
-        posterPath: "rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg",
-        backdropPath: "9bbxqz1iPEfZN9Xi2ZjJhkp5JRo.jpg",
-        voteAverage: 8.4,
-        releaseDate: "2022-06-11",
-        overview: "The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.",
-        genres: [
-            "Animation",
-            "Science Fiction",
-            "Action"
-        ]
-    ),
-    Movie(
-        title: "See for Me",
-        posterPath: "qk1ZERG6yhwAJqTobmDgw8jRL2C.jpg",
-        backdropPath: "tzNx4y7kYf1Xw3F3T6QxrE7PPwb.jpg",
-        voteAverage: 6.3,
-        releaseDate: "2022-01-07",
-        overview: "When blind former skier Sophie cat-sits in a secluded mansion, three thieves invade for the hidden safe. Sophie's only defense is army veteran Kelly, who she meets on the See For Me app. Kelly helps Sophie defend herself against the invaders and survive.",
-        genres: [
-            "Thriller",
-            "Drama",
-            "Crime",
-            "Mystery",
-            "Horror"
-        ]
-    ),
-    Movie(
-        title: "Lightyear",
-        posterPath: "vpILbP9eOQEtdQgl4vgjZUNY07r.jpg",
-        backdropPath: "fZ5lYDijd5t6YPrawg0b5JBVbyQ.jpg",
-        voteAverage: 7.1,
-        releaseDate: "2022-06-15",
-        overview: "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.",
-        genres: [
-            "Animation",
-            "Science Fiction",
-            "Adventure",
-            "Action",
-            "Family"
-        ]
-    ),
-    Movie(
-        title: "Top Gun: Maverick",
-        posterPath: "62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
-        backdropPath: "odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
-        voteAverage: 8.4,
-        releaseDate: "2022-05-24",
-        overview: "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
-        genres: [
-            "Action",
-            "Drama"
-        ]
-    )
+            Movie(
+                title: "Barbie a Fairy Secret",
+                posterPath: "afairysecretposter.jpg",
+                backdropPath: "afairysecretbackdrop.jpg",
+                voteAverage: 5,
+                releaseDate: "2011-03-15",
+                overview: "JGet ready for Barbie™: A Fairy Secret, an amazing adventure with Barbie™ where she discovers there are fairies living secretly all around us! When Ken™ is suddenly whisked away by a group of fairies, Barbie’s two fashion stylist friends reveal they are actually fairies and that Ken™ has been taken to a magical secret fairy world not far away! Barbie™ and her ex-best friend Raquelle take off with the fairy friends on an action-packed journey to bring him back. Along the way, they must stick together and learn that the real magic lies not just in the fairy world itself, but in the power of friendship.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: Princess Charm School",
+                posterPath: "princesscharmschoolposter.jpg",
+                backdropPath: "princesscharmschoolbackdrop.jpg",
+                voteAverage: 8,
+                releaseDate: "2011-03-15",
+                overview: "Barbie stars as Blair Willows, a kind-hearted girl who is chosen to attend Princess Charm School: a magical, modern place that teaches dancing, how to have tea parties, and proper princess manners. Blair loves her classes - as well as the helpful magical sprites and her new friends, Princesses Hadley and Isla. But when royal teacher Dame Devin discovers that Blair™ looks a lot like the kingdom's missing princess, she turns Blair's world upside down to stop her from claiming the throne. Now Blair, Hadley and Isla, along with the soon-to-be princess of Gardania, Dame Devin's daughter Delancey must find an enchanted crown to prove Blair's true identity in this charming and magical princess story!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: A perfect Christmas",
+                posterPath: "aperfectchristmasposter.jpg",
+                backdropPath: "aperfectchristmasbackdrop.jpg",
+                voteAverage: 3,
+                releaseDate: "2011-11-08",
+                overview: "Join Barbie and her sisters, Skipper, Stacie and Chelsea as their holiday vacation plans turn into a most unexpected adventure and heartwarming lesson. After a snow storm grounds their plane, the girls find themselves far from their New York City destination and their holiday dreams. Now stranded at a remote hotel in Rodchester, Minnesota, the sisters are welcomed by new friends and magical experiences. In appreciation for the wonderful hospitality they receive, Barbie, Skipper, Stacie and Chelsea use their musical talents to put on a performance for the whole town. Barbie and her sisters realize the true joy of being together is what really makes A Perfect Christmas.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie in A Mermaid Tale 2",
+                posterPath: "inamermaidtale2poster.jpg",
+                backdropPath: "inamermaidtale2backdrop.jpg",
+                voteAverage: 4,
+                releaseDate: "2012-03-06",
+                overview: "Surf's up for Barbie as she returns as Merliah, the fun and fashionable surfing champion who's also a magical mermaid princess! In this exciting sea-quel, Merliah makes a splash when she heads to Australia for the ultimate surfing competition. When the evil mermaid Eris escapes from her whirlpool, thanks to Kylie Morgan who steals Merliah's necklace, with plans to take Calissa's spot on the throne of Aquellia and get the power of Merilia, Merliah and her sea friends dive in to stop her. Merliah stops Eris from getting on the throne, and gets the power of Merillia and a new tail, too! It's a fresh new adventure where Merliah learns that anything is possible if you stay true to yourself.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie the Princess and the Popstar",
+                posterPath: "theprincessandthepopstarposter.jpg",
+                backdropPath: "theprincessandthepopstarbackdrop.jpg",
+                voteAverage: 6,
+                releaseDate: "2012-09-11",
+                overview: "In this sparkling musical adventure with fantastic songs, Barbie stars as Tori, the kind-hearted princess of the magical kingdom of Meribella, who would rather sing and dance than perform her royal duties. When she meets her favorite pop star Keira, the girls discover they have much in common including a magical secret that lets them look like one another and swap places. When the kingdom's magical secret is stolen, their true friendship is tested and they discover that the best thing you can be is yourself.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie in the Pink Shoes",
+                posterPath: "inthepinkshoesposter.jpg",
+                backdropPath: "inthepinkshoesbackdrop.jpg",
+                voteAverage: 3,
+                releaseDate: "2013-02-03",
+                overview: "Dance your way to a magical adventure with Barbie as Kristin, a ballerina with big dreams! When she tries on a pair of sparkling pink shoes, she and her best friend, Hayley, are whisked away to a fantastical ballet world. There, Kristin discovers she must dance in her favorite ballets in order to defeat an evil Snow Queen. With performances to the legendary Giselle and Swan Lake ballets, it's a wonderful journey where if you dance with your heart, dreams come true!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Mariposa & the Fairy Princess",
+                posterPath: "mariposa2poster.jpg",
+                backdropPath: "mariposa2backdrop.jpg",
+                voteAverage: 7,
+                releaseDate: "2013-08-27",
+                overview: "Mariposa and her furry friend Zee returns in Barbie: Mariposa & the Fairy Princess. In this magical adventure, Mariposa becomes the royal Ambassador of Flutterfield and is sent to bring peace between her fairy land and their rivals, the Crystal Fairies of Shimmervale. While Mariposa doesn't make a great first impression on their King, she becomes fast friends with his shy daughter, Princess Catania. However, a misunderstanding causes Mariposa to be banished from the fairy land. As Mariposa and Zee return to Flutterfield, they encounter a dark fairy on her way to destroy Shimmervale. Mariposa rushes back and helps Princess Catania save her fairy land and together, the two girls prove that the best way to make a friend, is to be a friend.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie & Her Sisters in A Pony Tale",
+                posterPath: "andhersistersinaponytaleposter.jpg",
+                backdropPath: "andhersistersinaponytalebackdrop.jpg",
+                voteAverage: 2,
+                releaseDate: "2013-10-15",
+                overview: "Barbie and her sisters set off on a Swiss adventure to the majestic Alps, where they're excited to spend the summer at a fun filled riding academy! Barbie can't wait to find a new horse to bring back to Malibu. Stacie is super excited to prove she's an amazing equestrian. All Chelsea wants to do is ride the big horses, and Skipper's more interested in writing about the great outdoors than experiencing it. The sisters' vacation gets off to a rocky start, but when Barbie discovers a mysterious wild horse in the woods, their visit becomes truly magical.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: The Pearl Princess",
+                posterPath: "thepearlprincessposter.jpg",
+                backdropPath: "thepearlprincessbackdrop.jpg",
+                voteAverage: 8,
+                releaseDate: "2014-02-15",
+                overview: "Barbie stars as Lumina, a mermaid with the power to control pearls. Cheerful and creative, Lumina finds herself working in a mermaid salon customizing fabulous hairstyles. And when Lumina has the chance to attend the royal ball, her friends adorn her with a gown fit for a princess. At the ball, villains try to seize power over the kingdom, and Lumina finds within herself an unexpected power that proves she is much more than a hair stylist.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie and the Secret Door",
+                posterPath: "andthesecretdoorposter.jpg",
+                backdropPath: "andthesecretdoorbackdrop.jpg",
+                voteAverage: 7,
+                releaseDate: "2014-08-07",
+                overview: "It's the ultimate fairytale musical! Barbie stars as Alexa, a shy princess who discovers a secret door in her kingdom and enters a whimsical land filled with magical creatures and surprises. Inside, Alexa meets Romy and Nori, a mermaid and a fairy, who explain that a spoiled ruler named Malucia is trying to take all the magic in the land. To her surprise, Alexa has magical powers in this world, and her new friends are certain that only she can restore their magic. Discover what happens when Alexa finds the courage to stand up for what's right and learns that the power of friendship is far more precious than magic.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
         ]
     }
 }

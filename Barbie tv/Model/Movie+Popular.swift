@@ -2,263 +2,260 @@
 import Foundation
 
 extension Movie {
-
+    
     static func popularMovies() -> [Movie] {
         return [
-    Movie(
-        title: "Doctor Strange in the Multiverse of Madness",
-        posterPath: "9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
-        backdropPath: "wcKFYIiVDvRURrzglV9kGu7fpfY.jpg",
-        voteAverage: 7.5,
-        releaseDate: "2022-05-04",
-        overview: "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
-        genres: [
-            "Fantasy",
-            "Action",
-            "Adventure"
-        ]
-    ),
-    Movie(
-        title: "Fantastic Beasts: The Secrets of Dumbledore",
-        posterPath: "jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg",
-        backdropPath: "zGLHX92Gk96O1DJvLil7ObJTbaL.jpg",
-        voteAverage: 6.8,
-        releaseDate: "2022-04-06",
-        overview: "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
-        genres: [
-            "Fantasy",
-            "Adventure",
-            "Action"
-        ]
-    ),
-    Movie(
-        title: "Dog",
-        posterPath: "rkpLvPDe0ZE62buUS32exdNr7zD.jpg",
-        backdropPath: "t0mwKhUDa62hdhdKSsN4xMfhY5Z.jpg",
-        voteAverage: 7.4,
-        releaseDate: "2022-02-17",
-        overview: "An army ranger and his dog embark on a road trip along the Pacific Coast Highway to attend a friend's funeral.",
-        genres: [
-            "Drama",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Sonic the Hedgehog 2",
-        posterPath: "6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
-        backdropPath: "egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
-        voteAverage: 7.7,
-        releaseDate: "2022-03-30",
-        overview: "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Family",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Morbius",
-        posterPath: "6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
-        backdropPath: "gG9fTyDL03fiKnOpf2tr01sncnt.jpg",
-        voteAverage: 6.5,
-        releaseDate: "2022-03-30",
-        overview: "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
-        genres: [
-            "Action",
-            "Science Fiction",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "The Lost City",
-        posterPath: "neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
-        backdropPath: "1Ds7xy7ILo8u2WWxdnkJth1jQVT.jpg",
-        voteAverage: 6.8,
-        releaseDate: "2022-03-24",
-        overview: "A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Spider-Man: No Way Home",
-        posterPath: "1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-        backdropPath: "iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
-        voteAverage: 8.1,
-        releaseDate: "2021-12-15",
-        overview: "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Science Fiction"
-        ]
-    ),
-    Movie(
-        title: "Memory",
-        posterPath: "4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
-        backdropPath: "vjnLXptqdxnpNJer5fWgj2OIGhL.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-28",
-        overview: "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
-        genres: [
-            "Action",
-            "Thriller",
-            "Crime"
-        ]
-    ),
-    Movie(
-        title: "Collision",
-        posterPath: "4zsihgkxMZ7MrflNCjkD3ySFJtc.jpg",
-        backdropPath: "qBu6blwnOA75Hz61QHrNe8unUNw.jpg",
-        voteAverage: 5.9,
-        releaseDate: "2022-06-16",
-        overview: "Over the course of one fateful day, a corrupt businessman and his socialite wife race to save their daughter from a notorious crime lord.",
-        genres: [
-            "Thriller",
-            "Crime",
-            "Drama"
-        ]
-    ),
-    Movie(
-        title: "Centauro",
-        posterPath: "wOx97MJOxEoR38aoya3lopyrlYC.jpg",
-        backdropPath: "v7hdWmLh6VLgZQgkbHDxAa17M47.jpg",
-        voteAverage: 6.6,
-        releaseDate: "2022-06-15",
-        overview: "Rafa's hooked on the pure, fiery feelings he gets from speed racing, but when his kid's mom gets mixed up with drug dealers, he burns rubber to save her.",
-        genres: [
-            "Action",
-            "Crime",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Spiderhead",
-        posterPath: "7COPO5B9AOKIB4sEkvNu0wfve3c.jpg",
-        backdropPath: "5tmjv1moohN65IuHAbYjKw3cw7I.jpg",
-        voteAverage: 5.6,
-        releaseDate: "2022-06-15",
-        overview: "A prisoner in a state-of-the-art penitentiary begins to question the purpose of the emotion-controlling drugs he's testing for a pharmaceutical genius.",
-        genres: [
-            "Science Fiction",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Jurassic World Dominion",
-        posterPath: "kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
-        backdropPath: "wo3l9p0S7pcvwlzlndtKgq0peRJ.jpg",
-        voteAverage: 6.7,
-        releaseDate: "2022-06-01",
-        overview: "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Science Fiction"
-        ]
-    ),
-    Movie(
-        title: "The Black Phone",
-        posterPath: "bxHZpV02OOu9vq3sb3MsOudEnYc.jpg",
-        backdropPath: "GLLgrghu7wSPaSjl2Rw4kjASOJ.jpg",
-        voteAverage: 7.2,
-        releaseDate: "2022-06-18",
-        overview: "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
-        genres: [
-            "Horror",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Shark Bait",
-        posterPath: "mVVU9zC8snNHlcqYONY2HOsh9ob.jpg",
-        backdropPath: "jVGHRpSgtE2MQLJhC5q4lXmPNQW.jpg",
-        voteAverage: 7,
-        releaseDate: "2022-05-13",
-        overview: "A group of friends enjoying a weekend steal a couple of jetskis racing them out to sea, ending up in a horrific head-on collision. They struggle to find a way home with a badly injured friend while from the waters below predators lurk.",
-        genres: [
-            "Horror",
-            "Thriller",
-            "Action"
-        ]
-    ),
-    Movie(
-        title: "Panama",
-        posterPath: "u9DzgsmssidygWuORgYzhi317vj.jpg",
-        backdropPath: "trtFAmf4IcndxSh5tIfLwxPyW67.jpg",
-        voteAverage: 5.9,
-        releaseDate: "2022-03-17",
-        overview: "An ex-marine is hired by a defense contractor to travel to Panama to complete an arms deal. In the process he becomes involved with the U.S. invasion of Panama, and learns an important lesson about the true nature of political power.",
-        genres: [
-            "Action",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "The Northman",
-        posterPath: "zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
-        backdropPath: "cqnVuxXe6vA7wfNWubak3x36DKJ.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-07",
-        overview: "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "Uncharted",
-        posterPath: "rJHC1RUORuUhtfNb4Npclx0xnOf.jpg",
-        backdropPath: "aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
-        voteAverage: 7.1,
-        releaseDate: "2022-02-10",
-        overview: "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
-        genres: [
-            "Action",
-            "Adventure"
-        ]
-    ),
-    Movie(
-        title: "The Desperate Hour",
-        posterPath: "u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg",
-        backdropPath: "qp8qKiP7Q7zK4z3LItwWMHfV9kJ.jpg",
-        voteAverage: 6,
-        releaseDate: "2021-09-12",
-        overview: "A woman desperately races to save her child after police place her hometown on lockdown due to an active shooter incident.",
-        genres: [
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Hustle",
-        posterPath: "fVf4YHHkRfo1uuljpWBViEGmaUQ.jpg",
-        backdropPath: "hGr0FrLI74vqpBWTBOPloDBwOAK.jpg",
-        voteAverage: 7.9,
-        releaseDate: "2022-06-03",
-        overview: "After discovering a once-in-a-lifetime player with a rocky past abroad, a down on his luck basketball scout takes it upon himself to bring the phenom to the States without his team's approval. Against the odds, they have one final shot to prove they have what it takes to make it in the NBA.",
-        genres: [
-            "Drama",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Turning Red",
-        posterPath: "qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
-        backdropPath: "fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
-        voteAverage: 7.5,
-        releaseDate: "2022-03-10",
-        overview: "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda.",
-        genres: [
-            "Animation",
-            "Family",
-            "Comedy",
-            "Fantasy"
-        ]
-    )
+            Movie(
+                title: "Barbie in the Nutcracker",
+                posterPath: "inthenutcrackerposter.jpg",
+                backdropPath: "inthenutcrackerbackdrop.jpg",
+                voteAverage: 5,
+                releaseDate: "2001-10-02",
+                overview: "Barbie®, playing the role of Clara, receives a beautiful wooden Nutcracker as a gift from her favorite Aunt. That night, while Clara sleeps, the Nutcracker springs to life to ward off the evil Mouse King who has invaded Clara's parlor. She awakes and aids the Nutcracker, but the Mouse King shrinks her by casting an evil spell. Clara and the Nutcracker set off on a spectacular adventure to find the Sugarplum Princess, the only one who can break the Mouse King's evil enchantment.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie as Rapunzel",
+                posterPath: "asrapunzelposter.jpg",
+                backdropPath: "asrapunzelbackdrop.jpg",
+                voteAverage: 9,
+                releaseDate: "2002-10-01",
+                overview: "Long, long ago, in a time of magic and dragons, there lived a girl named Rapunzel, who had the most beautiful, radiant hair the world had ever seen. But Rapunzel's life was far from wonderful. She lived as a servant of Gothel, a jealous, scheming witch who kept her hidden deep in a forbidding forest, guarded by the enormous dragon Hugo and surrounded by an enchanted glass wall. However, in a twist of fate, Rapunzel's discovery of a magic paintbrush leads her on a journey that will unravel a web of deception, bring peace to two feuding kingdoms, and ultimately lead her to love with the handsome Prince Stefan. She succeeds with the help of Penelope, the least intimidating of dragons! Barbie as Rapunzel shows that love and imagination can change the world…",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie of Swan Lake",
+                posterPath: "ofswanlakeposter.jpg",
+                backdropPath: "ofswanlakebackdrop.jpg",
+                voteAverage: 7,
+                releaseDate: "2003-09-30",
+                overview: "A young girl named Odette follows a beautiful unicorn, Lila into the Enchanted Forest and picks up a magic crystal, that proclaims her destiny as savior of the enchanted forest. Odette, hampered by an overwhelming sense of insecurity, proclaims herself unfit for the job and sets out to leave the forest when the evil wizard, Rothbart turns her into a swan. Bolstered by the powers of the magic crystal, Odette vows to defeat Rothbart. Meanwhile, love blossoms between Odette and the town's Prince Daniel, and eventually, Odette finds a courage within herself that, combined with her intelligence and the true love between her and the Prince, proves powerful enough to defeat Rothbart.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie as the Princess & the Pauper",
+                posterPath: "astheprincessandthepauperposter.jpg",
+                backdropPath: "astheprincessandthepauperbackdrop.jpg",
+                voteAverage: 6,
+                releaseDate: "2004-09-28",
+                overview: "In her first animated musical, featuring seven original songs, Barbie comes to life in this modern retelling of a classic tale of mistaken identity and the power of friendship. Based on the story by Mark Twain, Barbie as the Princess and the Pauper features Barbie in an exciting dual role as a princess and a poor village girl who look amazingly alike! The girls' paths are fated to cross when Princess Anneliese is captured and Erika, her look- alike, must try to save her. Can Erika pretend to be the Princess and foil her captor, the evil Preminger? And what of the handsome King Dominick, who falls in love with Erika, mistaking her for Anneliese? In this magical musical performance, two beautiful, adventurous girls dare to follow their dreams and discover that destiny is written in a very special place: your heart!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Fairytopia",
+                posterPath: "fairytopiaposter.jpg",
+                backdropPath: "fairytopiabackdrop.jpg",
+                voteAverage: 10,
+                releaseDate: "2005-03-08",
+                overview: "One day, Elina wakes to find that her flower home is sick, and her fairy friends can't fly! She summons the courage to help and embarks on a fantastic journey to find Azura, a Guardian Fairy she thinks can solve the problem. She meets new people who test her courage and teach her the value of true friendship. But can a wingless fairy save all of Fairytopia?",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie and the Magic of Pegasus",
+                posterPath: "andthemagicofpegasusposter.jpg",
+                backdropPath: "andthemagicofpegasusbackdrop.jpg",
+                voteAverage: 2,
+                releaseDate: "2005-09-20",
+                overview: "Barbie takes flight in her first original princess fairy tale movie, Barbie and the Magic of Pegasus. Princess Annika discovers adventure when she is befriended by Brietta - a magnificent winged horse - that flies her to the beautiful Cloud Kingdom. Annika has only three days to break the spell of Wenlock, an evil wizard who has turned her family to stone. On her quest to defeat Wenlock, Annika meets new friends and together they travel to forbidden forests, skate through icy caverns and fly above the clouds as they attempt to build a magical wand of light.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Fairytopia: Mermaidia",
+                posterPath: "mermaidiaposter.jpg",
+                backdropPath: "mermaidiabackdrop.jpg",
+                voteAverage: 10,
+                releaseDate: "2006-03-14",
+                overview: "In this follow-up to Fairytopia, Elina (played by Barbie) travels to Mermaidia to save her friend Nalu, the merman Prince. Prince Nalu has been kidnapped in an attempt to learn the whereabouts of a special berry that will make Laverna the most powerful fairy in Fairytopia - even more powerful than the Enchantress! It's up to Elina to stop them, but she can't do it alone. She'll need the help of Nori, a headstrong mermaid who doesn't trust outsiders and wants nothing to do with Elina. Winning Nori over isn't easy, but Elina will have more challenges yet to come. Saving Nalu could require the greatest sacrifice of her life: her wings. Can she do it, or will Fairytopia fall into the hands of Laverna forever?",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "The Barbie Diaries",
+                posterPath: "diariesposter.jpg",
+                backdropPath: "diariesbackdrop.jpg",
+                voteAverage: 4,
+                releaseDate: "2006-05-09",
+                overview: "So, you're like, not going to believe this awesome story. It's filled with friendship and magic, super cool music, stylish fashion and, of course, romance! It's a new school year, and I hope it's going to be totally magical! I love hanging out with my best friends 'cause we always have a blast. I play guitar in our band, and we really rock (even if we haven't played in front of anybody yet)! I also work at the school TV station, which is my absolute dream (even though I have to do silly errands for Raquelle!)Oh, I almost forgot - I also have a huge crush on the most popular boy - he hasn't noticed me yet, but he will! With a special diary and a charm bracelet, I'm gaining the confidence to reach for all my dreams. Find out how cool, fun and exciting life can be in The Barbie™ Diaries!",
+            genres: [
+                "Fantasy",
+                "Action",
+                "Adventure"
+            ]
+            ),
+            
+            Movie(
+                title: "Barbie in the 12 Dancing Princesses",
+                posterPath: "twelvedancingprincessesposter.jpg",
+                backdropPath: "twelvedancingprincessesbackdrop.jpg",
+                voteAverage: 10,
+                releaseDate: "2006-09-10",
+                overview: "In *Barbie in The 12 Dancing Princesses*, Barbie will dance her way into your hearts in this fun and enchanting all-new adventure. Join Barbie as the beautiful Princess Genevieve and her eleven dancing princess sisters as they discover a secret entrance to an amazing, magical world where wishes come true! But when their father is in danger of losing his kingdom and his own life, Princess Genevieve and her sisters must work together in order to save the day and their father. They learn that the power of family can overcome all obstacles!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Fairytopia: Magic of the Rainbow",
+                posterPath: "magicoftherainbowposter.jpg",
+                backdropPath: "magicoftherainbowbackdrop.jpg",
+                voteAverage: 6,
+                releaseDate: "2007-03-13",
+                overview: "Elina travels with her puffball, Bibble to Fairy School at the magnificent Crystal Palace. There, she meets the other fairy apprentices, chosen to learn the annual Flight of Spring and magically create the first rainbow of the season. But when the evil Laverna tries to stop the Flight, threatening to plunge Fairytopia into ten years of bitter winter, Elina and her new friends must learn that together we are strong. But are they strong enough to defeat Laverna and bring the rainbow to life? And will Bibble, who has a loose tooth, fall in love with adorable puffball Dizzle?",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie as the Island Princess",
+                posterPath: "astheislandprincessposter.jpg",
+                backdropPath: "astheislandprincessbackdrop.jpg",
+                voteAverage: 9,
+                releaseDate: "2007-09-18",
+                overview: "It's time to set sail with Barbie as The Island Princess in this full-length, original musical featuring nine fantastic new songs. After being shipwrecked on an island as a little girl, Rosella (Barbie) grows up learning to talk and sing with a family of loving animals: the red panda Sagi, the peacock Azul, and the baby elephant Tika. But when Prince Antonio discovers their tropical paradise, curiosity about her past leads Rosella to journey with the prince to his castle. As she and her animal friends explore civilization, they uncover an evil plot to take over the kingdom! Through its heartwarming ending, Barbie as The Island Princess shows that when love guides you, miracles may be closer than you know.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: Mariposa and her Butterfly fairy friends",
+                posterPath: "mariposaposter.jpg",
+                backdropPath: "mariposabackdrop.jpg",
+                voteAverage: 3,
+                releaseDate: "2008-02-26",
+                overview: "Join Barbie in an all-new world of Butterfly Fairies! Mariposa is a beautiful butterfly fairy who loves to read and dream about the world outside her home in the land of Flutterfield. Flutterfield is protected by the Queen's glimmering magical lights, but when the Queen is poisoned by the evil fairy Henna, the special lights begin to go out one by one. It's up to the brave Mariposa and her friends to journey beyond the safe borders of the city in search of a hidden antidote that will save the Queen. Join the butterfly fairy friends on an exciting adventure that will transform them forever!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie & the Diamond Castle",
+                posterPath: "andthediamondcastleposter.jpg",
+                backdropPath: "andthediamondcastlebackdrop.jpg",
+                voteAverage: 5,
+                releaseDate: "2008-09-09",
+                overview: "Barbie and Teresa tell us the fairy tale story of Liana and Alexa, best friends who share everything including their love of music. One day their simple lives change when they are given an enchanted mirror and befriend the girl trapped inside! To save their new friend, Liana and Alexa embark on a dangerous journey to the hidden Diamond Castle, that will put their friendship to the test. But through the power of song and with the companionship of two adorable puppies, the girls face their challenges together and learn that friendship is the true treasure.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie in a Christmas Carol",
+                posterPath: "inachristmascarolposter.jpg",
+                backdropPath: "inachristmascarolbackdrop.jpg",
+                voteAverage: 2,
+                releaseDate: "2008-11-04",
+                overview: "Barbie in A Christmas Carol is a heartwarming adaptation of the classic Dickens story filled with cherished Christmas carols, fabulous fashions and lots of laughs! The tale stars Barbie as Eden Starling, the glamorous singing diva of a theatre in Victorian London. Along with her snooty cat, Chuzzlewit, Eden selfishly plans to make all the theatre performers stay and rehearse on Christmas Day! Not even Eden's childhood friend, Catherine, can talk Eden out of her self-centered tantrum. It's up to three very unusual Christmas Spirits to take Eden on a fantastical holiday journey that will open her heart to the spirit of the season and the joy of giving. Barbie in A Christmas Carol is a family favorite to enjoy every holiday season!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie presents Thumbelina",
+                posterPath: "thumbelinaposter.jpg",
+                backdropPath: "thumbelinabackdrop.jpg",
+                voteAverage: 2,
+                releaseDate: "2009-03-17",
+                overview: "Meet a tiny girl named Thumbelina who lives in harmony with nature in the magical world of the Twillerbees that's hidden among the wildflowers. At the whim of a spoiled young girl named Makena, Thumbelina and her two friends have their patch of wildflowers uprooted and are transported to a lavish apartment in the city. Here they learn of construction plans that threaten to destroy the land of the Twillerbees! Harnessing the magic of nature, Thumbelina sets out to prove that even the smallest person can make a big difference…",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie and the Three Musketeers",
+                posterPath: "andthethreemusketeersposter.jpg",
+                backdropPath: "andthethreemusketeersbackdrop.jpg",
+                voteAverage: 8,
+                releaseDate: "2009-09-15",
+                overview: "Join Barbie as Corinne, a young country girl headed to Paris to pursue her big dream – to become a female musketeer! Never could she imagine she would meet three other girls who secretly share the same dream! Using their special talents, the girls work together as a team to foil a plot and save the prince. Come along on an action-filled adventure that dares you to dream as never before.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie in A Mermaid Tale",
+                posterPath: "inamermaidtaleposter.jpg",
+                backdropPath: "inamermaidtalebackdrop.jpg",
+                voteAverage: 10,
+                releaseDate: "2010-03-02",
+                overview: "Barbie stars as Merliah, a surfing champion from Malibu. One minute she's a normal teenager and the next she learns a shocking family secret: she's a mermaid! Merliah and her dolphin friend Zuma set off on an undersea adventure to rescue her mother, the queen of Oceana. With help from her new mermaid friends, Merliah saves the ocean kingdom. In the end, she discovers that what makes you different could be your greatest strength.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: a Fashion Fairytale",
+                posterPath: "afashionfairytaleposter.jpg",
+                backdropPath: "afashionfairytalebackdrop.jpg",
+                voteAverage: 7,
+                releaseDate: "2010-09-14",
+                overview: "Join Barbie in a colourful, modern-day fairytale filled fashion, friends and fun. Barbie and her dog Sequin jet off to visit her aunt's amazing fashion house in Paris. Much to their surprise, it's about to be shut down forever! After she discovers three enchanting Flairies with sparkle-magic powers, Barbie comes up with a brilliant idea to save the business. She even inspires Alice, a shy fashion designer, and together they create a dazzling runway fashion show! Barbie shows that magic happens when you believe in yourself.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
         ]
     }
 }

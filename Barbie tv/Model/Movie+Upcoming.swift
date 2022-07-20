@@ -2,271 +2,176 @@
 import Foundation
 
 extension Movie {
-
+    
     static func upcomingMovies() -> [Movie] {
         return [
-    Movie(
-        title: "Memory",
-        posterPath: "4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
-        backdropPath: "vjnLXptqdxnpNJer5fWgj2OIGhL.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-28",
-        overview: "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
-        genres: [
-            "Action",
-            "Thriller",
-            "Crime"
-        ]
-    ),
-    Movie(
-        title: "The Black Phone",
-        posterPath: "bxHZpV02OOu9vq3sb3MsOudEnYc.jpg",
-        backdropPath: "GLLgrghu7wSPaSjl2Rw4kjASOJ.jpg",
-        voteAverage: 7.2,
-        releaseDate: "2022-06-18",
-        overview: "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
-        genres: [
-            "Horror",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "The Northman",
-        posterPath: "zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
-        backdropPath: "cqnVuxXe6vA7wfNWubak3x36DKJ.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-07",
-        overview: "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "A Day to Die",
-        posterPath: "8Kce1utfytAG5m1PbtVoDzmDZJH.jpg",
-        backdropPath: "hcNM0HjfPonIzOVy6LVTDBXSfMq.jpg",
-        voteAverage: 6.3,
-        releaseDate: "2022-03-04",
-        overview: "A disgraced parole officer is indebted to a local gang leader and forced to pull off a series of dangerous drug heists within twelve hours in order to pay the $2 million dollars he owes, rescue his kidnapped pregnant wife, and settle a score with the city's corrupt police chief, who is working with the gang leader and double-crossed him years ago.",
-        genres: [
-            "Action",
-            "Thriller",
-            "Crime"
-        ]
-    ),
-    Movie(
-        title: "Lightyear",
-        posterPath: "vpILbP9eOQEtdQgl4vgjZUNY07r.jpg",
-        backdropPath: "fZ5lYDijd5t6YPrawg0b5JBVbyQ.jpg",
-        voteAverage: 7.1,
-        releaseDate: "2022-06-15",
-        overview: "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.",
-        genres: [
-            "Animation",
-            "Science Fiction",
-            "Adventure",
-            "Action",
-            "Family"
-        ]
-    ),
-    Movie(
-        title: "Minions: The Rise of Gru",
-        posterPath: "wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
-        backdropPath: "ggEKIzP5An3vnSfj271ApaJYtQw.jpg",
-        voteAverage: 7.8,
-        releaseDate: "2022-06-16",
-        overview: "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
-        genres: [
-            "Family",
-            "Animation",
-            "Action",
-            "Adventure",
-            "Comedy"
-        ]
-    ),
-    Movie(
-        title: "Thor: Love and Thunder",
-        posterPath: "4zLfBbGnuUBLbMVtagTZvzFwS8l.jpg",
-        backdropPath: "ynUgLlrTASSz87Op39DKj6SHeOR.jpg",
-        voteAverage: 9.4,
-        releaseDate: "2022-07-06",
-        overview: "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
-        genres: [
-            "Action",
-            "Adventure",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "Chickenhare and the Hamster of Darkness",
-        posterPath: "2v6f1EqTo4FUxVT9MDXpF6158AX.jpg",
-        backdropPath: "j7HkmkYLH1McPTzWPvvYgIAQwIN.jpg",
-        voteAverage: 7.7,
-        releaseDate: "2022-02-16",
-        overview: "Young Chickenhare is the adopted son of King Peter, a famous adventurer. Part chicken and part hare, he has a really tough time growing up and disguises himself as a hare to avoid the mockeries of his peers. When the day of the Royal Adventurer Society trials comes, Chickenhare, hampered by his disguise, fails miserably. But he is determined to grab a second chance and find the Scepter of the Hamster of Darkness, before his evil Uncle Lapin. The Scepter will give immense power to its holder. If Lapin gets hold of it, he will be unstoppable. Accompanied by his faithful servant Abe, a sarcastic turtle, and Meg, a martial arts expert skunk, he sets of on an epic and initiatory quest.",
-        genres: [
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Family",
-            "Fantasy"
-        ]
-    ),
-    Movie(
-        title: "Fireheart",
-        posterPath: "hepwOZWJNUmLzB68gKYEdEJAaD3.jpg",
-        backdropPath: "pFwvHAFyPEqtvJEoutPuobLwrNj.jpg",
-        voteAverage: 7.7,
-        releaseDate: "2022-01-16",
-        overview: "The film explores the world of firefighters in 1920s New York City and tells the story of a 16-year-old girl who will have to become a hero in order to save her city.",
-        genres: [
-            "Animation",
-            "Comedy",
-            "Family"
-        ]
-    ),
-    Movie(
-        title: "Padre no hay más que uno 3",
-        posterPath: "sNbdbc0k0lin2U9OU4jO6lMRqlJ.jpg",
-        backdropPath: "znUdSyO9ZUopUfmr6DH5YT5D5Cs.jpg",
-        voteAverage: 0,
-        releaseDate: "2022-07-15",
-        overview: "Christmas is coming. The children accidentally break a Nativity scene figurine from their father's collection and must by all means get an equal one, the problem is that it is a unique antique piece. Sara, the eldest daughter breaks up with her boyfriend, Ocho, who will try to recover her favors with the help of her father-in-law, Javier. Precisely Javier's father-in-law, Marisa's father, will be welcomed into the family home to spend the holidays after her recent separation, which will not leave Javier's mother, Milagros, indifferent. Rocío, the folklore of the family, who has been playing the Virgin for several Christmases, is relegated this year to playing the shepherdess, something that her father, Javier, is not willing to assume.",
-        genres: [
-            "Comedy",
-            "Family"
-        ]
-    ),
-    Movie(
-        title: "Downton Abbey: A New Era",
-        posterPath: "r5n4CLoIjUcnT3shWDi6MHdJ25a.jpg",
-        backdropPath: "nBHKT3pm5DmidZd5VS4bD5Hc2S3.jpg",
-        voteAverage: 7.3,
-        releaseDate: "2022-04-27",
-        overview: "The Crawley family goes on a grand journey to the South of France to uncover the mystery of the dowager countess's newly inherited villa.",
-        genres: [
-            "Drama",
-            "Romance"
-        ]
-    ),
-    Movie(
-        title: "Father There Is Only One 3",
-        posterPath: "bb7mPVCKVPGFM0NTqd5JmqqI4gu.jpg",
-        backdropPath: "znUdSyO9ZUopUfmr6DH5YT5D5Cs.jpg",
-        voteAverage: 0,
-        releaseDate: "2022-07-15",
-        overview: "Christmas is coming. The children accidentally break a Nativity scene figurine from their father's collection and must by all means get an equal one, the problem is that it is a unique antique piece. Sara, the eldest daughter breaks up with her boyfriend, Ocho, who will try to recover her favors with the help of her father-in-law, Javier. Precisely Javier's father-in-law, Marisa's father, will be welcomed into the family home to spend the holidays after her recent separation, which will not leave Javier's mother, Milagros, indifferent. Rocío, the folklore of the family, who has been playing the Virgin for several Christmases, is relegated this year to playing the shepherdess, something that her father, Javier, is not willing to assume.",
-        genres: [
-            "Comedy",
-            "Family"
-        ]
-    ),
-    Movie(
-        title: "Elvis",
-        posterPath: "b6UjAGzPzOnXhPIASUaSX1BUbXD.jpg",
-        backdropPath: "7CnFLRHr6Ml5Vtfg2B7CxgUFOcY.jpg",
-        voteAverage: 7.9,
-        releaseDate: "2022-06-22",
-        overview: "The life story of Elvis Presley as seen through the complicated relationship with his enigmatic manager, Colonel Tom Parker.",
-        genres: [
-            "Drama",
-            "Music",
-            "History"
-        ]
-    ),
-    Movie(
-        title: "Superwho?",
-        posterPath: "4nuElmKU1F53qGq0MskGgyRH8Q2.jpg",
-        backdropPath: "4gqDdWoTf1wNOiliYWXMMSIlBnK.jpg",
-        voteAverage: 6.1,
-        releaseDate: "2022-02-02",
-        overview: "Struggling actor Cedric seems doomed to lead the life of a loser. He's broke and his girlfriend has dumped him. Even his own father, sister and best buddies have lost faith in his ability to do anything worthwhile. Then finally, he gets a lead role: the superhero “Badman“. A chance to pull himself out of an endless downward spiral and gain his father's respect. But fate strikes again! Rushing off the set in full costume, Cedric has a car accident, loses his memory, and wakes up convinced he really is a superhero on mission! Confronted with real-life adventure and danger, his true nature is put to the test. Does he have what it takes to tackle the forces of evil, defend the weakest among us and beat the bad guys? But you can't just decide to be a hero, let alone a superhero... especially someone like Cedric!",
-        genres: [
-            "Comedy",
-            "Action"
-        ]
-    ),
-    Movie(
-        title: "The Sadness",
-        posterPath: "a7VHvhROWorsWrtNKQnLZTxpxuG.jpg",
-        backdropPath: "klioTuA8JepFgV0EC7IxqV6VbrM.jpg",
-        voteAverage: 6.8,
-        releaseDate: "2021-01-22",
-        overview: "A young couple is pushed to the limits of sanity as they attempt to be reunited amid the chaos of a pandemic outbreak. The streets erupt into violence and depravity, as those infected are driven to enact the most cruel and ghastly things imaginable.",
-        genres: [
-            "Horror",
-            "Action",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "X",
-        posterPath: "woTQx9Q4b8aO13jR9dsj8C9JESy.jpg",
-        backdropPath: "2oXQpm0wfOkIL0jBJABbL5AfMs6.jpg",
-        voteAverage: 6.7,
-        releaseDate: "2022-03-17",
-        overview: "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
-        genres: [
-            "Horror",
-            "Thriller"
-        ]
-    ),
-    Movie(
-        title: "Extinct",
-        posterPath: "tRnPT88iD5zgeUPjHqaZznrxk5m.jpg",
-        backdropPath: "yd2xws5wVT2Ss6f0Q0oTkdYtiQE.jpg",
-        voteAverage: 6.4,
-        releaseDate: "2021-02-11",
-        overview: "Op and Ed, two adorable donut-shaped animals - flummels - accidentally time-travel from 1835 to modern-day Shanghai.  There they discover traffic, trans fats, and worst of all, that flummels are now extinct. It's up to this bumbling pair to save themselves and their species...and, just maybe, change the course of history.",
-        genres: [
-            "Animation",
-            "Comedy",
-            "Family",
-            "Adventure"
-        ]
-    ),
-    Movie(
-        title: "Cube",
-        posterPath: "npcWz1YMEESjhgkdNY11M34PfcT.jpg",
-        backdropPath: "wgbch1xH2OezrMKnol8Ze9UghPT.jpg",
-        voteAverage: 4.3,
-        releaseDate: "2021-10-22",
-        overview: "Six complete strangers with widely varying personalities are involuntarily placed in an endless maze of interlocking cube-shaped rooms containing deadly traps.",
-        genres: [
-            "Thriller",
-            "Mystery",
-            "Science Fiction",
-            "Horror"
-        ]
-    ),
-    Movie(
-        title: "Decision to Leave",
-        posterPath: "vvdEFKmp9q5F4V3PhCj9FWUFPC2.jpg",
-        backdropPath: "A1bWhTFQKkhF1yhSKWosSyzn2Hp.jpg",
-        voteAverage: 7.9,
-        releaseDate: "2022-06-29",
-        overview: "Hae-Joon, a seasoned detective, investigates the suspicious death of a man on a mountaintop. Soon, he begins to suspect Seo-rae, the deceased's wife, while being unsettled by his attraction to her.",
-        genres: [
-            "Crime",
-            "Drama",
-            "Romance",
-            "Mystery"
-        ]
-    ),
-    Movie(
-        title: "Men",
-        posterPath: "jo1Kv3P3UgDVk7JnUFr2Cl8WWUM.jpg",
-        backdropPath: "4N2FuCTuqH3h4dw9XPFtsnDPSz7.jpg",
-        voteAverage: 6.2,
-        releaseDate: "2022-05-20",
-        overview: "In the aftermath of a personal tragedy, Harper retreats alone to the beautiful English countryside, hoping to find a place to heal. But someone — or something — from the surrounding woods appears to be stalking her, and what begins as simmering dread becomes a fully-formed nightmare, inhabited by her darkest memories and fears.",
-        genres: [
-            "Horror",
-            "Drama"
-        ]
-    )
+            Movie(
+                title: "Barbie in Princess Power",
+                posterPath: "inprincesspowerposter.jpg",
+                backdropPath: "inprincesspowerbackdrop.jpg",
+                voteAverage: 1,
+                releaseDate: "2015-01-01",
+                overview: "Barbie stars as Kara, a modern-day princess with an everyday life. One day, after being kissed by a magical butterfly, Kara soon discovers she has amazing super powers allowing her to transform into Super Sparkle, her secret, crime-fighting alter ego who flies around the kingdom ready to save the day! But it's not long before her jealous cousin catches the butterfly and also transforms - this time into Dark Sparkle, her nemesis. Their rivalry takes to the skies, but when they discover the kingdom's true enemy, can they put aside their differences to form one super team? Soar to new heights and discover that there's no greater power than the power of friendship!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Rock 'n Royals",
+                posterPath: "rocknroyalsposter.jpg",
+                backdropPath: "rocknroyalsbackdrop.jpg",
+                voteAverage: 1,
+                releaseDate: "2015-09-03",
+                overview: "In this upbeat musical, Barbie™ stars as Princess Courtney, a modern princess whose world is turned upside down when she switches places with Erika, a famous rockstar. Two very different worlds collide when a mix-up sends Princess Courtney to Camp Pop and Erika, to Camp Royalty. While the leaders of the rival camps try to correct the mix-up, both Courtney and Erika learn to adjust to the different worlds and have fun while making new, unexpected friends. When the girls learn both camps are at risk of shutting down, they must embrace their differences, find their true voices, and come together for an epic sing-off that shows anything is possible when you dare to dream big!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie & Her Sisters in The Great Puppy Adventure",
+                posterPath: "greatpuppyadventureposter.jpg",
+                backdropPath: "greatpuppyadventurebackdrop.jpg",
+                voteAverage: 2,
+                releaseDate: "2015-10-08",
+                overview: "Barbie and her sisters, Skipper, Stacie and Chelsea, and their adorable new puppy friends find unexpected mystery and adventure when they return to their hometown of Willows. While going through mementos in Grandma's attic, the sisters discover an old map believed to lead to a long-lost treasure buried somewhere in the town. With their puppy pals in tow, the four girls go on an exciting treasure hunt, along the way discovering that the greatest treasure of all is the love and laughter they share as sisters!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Spy Squad",
+                posterPath: "spysquadposter.jpg",
+                backdropPath: "spysquadbackdrop.jpg",
+                voteAverage: 3,
+                releaseDate: "2016-04-07",
+                overview: "Barbie and her best friends Teresa and Renée transform from hard-working gymnasts to undercover secret agents in this exciting, action-packed adventure! When their amazing gymnastics skills catch the eye of a top-secret spy agency, the girls are soon following clues to a gem-stealing cat burglar who has escaped everyone on the case. With their high-tech gadgets, glam disguises and cute robo-pets, can they prove that smarts and teamwork can get the mission accomplished? It’s girl power to the rescue.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: Star Light Adventure",
+                posterPath: "starlightadventureposter.jpg",
+                backdropPath: "starlightadventurebackdrop.jpg",
+                voteAverage: 5,
+                releaseDate: "2016-08-18",
+                overview: "Barbie is a cosmic princess who flies high on her hoverboard through a far-off universe with her adorable and devoted pet sidekick, Pupcorn. One day, everything changes when the twinkling stars start to dim and slow their dance in the sky. Barbie travels to a beautiful new planet to join a special rescue team on a mission to save the stars. Once there, she teams up with a group of talented new friends who work together to save the galaxy through exciting hoverboarding adventures. Barbie soon discovers that if she listens to her heart, and with the help of her friends, she might be the leader the whole universe has been waiting for!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie & Her Sisters in A Puppy Chase",
+                posterPath: "puppychaseposter.jpg",
+                backdropPath: "puppychasebackdrop.jpg",
+                voteAverage: 1,
+                releaseDate: "2016-10-12",
+                overview: "A fun-filled tropical adventure: Barbie and her sisters discover everything's better when you do it together in this splashy, sun-kissed adventure! After the girls and their pets arrive at an island paradise for Chelsea's big dance competition, they decide to make a quick side trip to see the nearby Dancing Horse Festival. But when their furry friends go missing at the event, it's up to the sisters to find them before Chelsea's show. While the puppies are out having an adventure of their own, the girls must use their imaginations and work together to find their furry friends in this tail-wagging good time!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: Videogame Hero",
+                posterPath: "videogameheroposter.jpg",
+                backdropPath: "videogameherobackdrop.jpg",
+                voteAverage: 1,
+                releaseDate: "2017-01-17",
+                overview: "When Barbie magically gets pulled into her favorite video game, she is excited to see she's transformed into a fun roller-skating character. In the game, she meets Cutie, the lovable cloud-shaped friend, and Bella, the roller-skating princess. Together, they soon discover a mischievous emoji is trying to take control of the game. As they travel from level to level, Barbie must rely on her amazing gaming skills and out-of-the-box thinking to save her team and beat the game!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Dolphin Magic",
+                posterPath: "dolphinmagicposter.jpg",
+                backdropPath: "dolphinmagicbackdrop.jpg",
+                voteAverage: 6,
+                releaseDate: "2017-09-17",
+                overview: "Join Barbie™ and her sisters Skipper™, Stacie™, and Chelsea™ as they go on an adventure to a tropical island where Ken™ is doing a marine biology internship. While snorkelling, they discover a young dolphin trapped in an enclosure—but this isn't just any dolphin; it's a beautiful bright green Gemstone Dolphin! Barbie then meets a mysterious friend named Isla, who turns out to be a magical mermaid! Soon after, the girls discover that the dolphin is being held by Marlo, the biologist Ken is interning with. Her intentions are to make money by exhibiting the dolphin for its unique traits. They must work together to free the dolphin so he can be reunited with his Gemstone Dolphin family before Marlo sends him away.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie Princess Adventure",
+                posterPath: "princessadventureposter.jpg",
+                backdropPath: "princessadventurebackdrop.jpg",
+                voteAverage: 4,
+                releaseDate: "2020-09-17",
+                overview: "Through music and magic, Barbie learns what it's like to be a modern princess when she trades places with a royal lookalike.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie & Chelsea: The Lost Birthday",
+                posterPath: "lostbirthdayposter.jpg",
+                backdropPath: "lostbirthdaybackdrop.jpg",
+                voteAverage: 2,
+                releaseDate: "2021-04-16",
+                overview: "Barbie & Chelsea The Lost Birthday, tells the story of Chelsea, Barbie’s precocious youngest sister, and the rest of the Roberts family as they set sail on an adventure cruise for her seventh birthday. When they cross the International Date Line, Chelsea discovers her actual birthday has been lost, and she embarks on a fantastical journey through an enchanted jungle island in order to save it.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: Big City, Big Dreams",
+                posterPath: "bigcitybigdreamsposter.jpg",
+                backdropPath: "bigcitybigdreamsbackdrop.jpg",
+                voteAverage: 4,
+                releaseDate: "2021-08-20",
+                overview: "Discover double the singing and double the fun in this all-new musical movie Barbie Big City, Big Dreams. Barbie swaps the sunny shores of Malibu for the bright lights of Broadway to attend an excusive summer performing arts program and meets... Barbie! Fast friends, the two discover they share more than a name as they explore New York City and all the amazing things they have in common. As they compete for the coveted once-in-a-lifetime Spotlight Solo from Times Square, the friends discover competition isn't all about winning, it's about striving to be your best, overcoming doubts, and sharing the spotlight. This exciting new sing-along adventure features new characters, a new setting in NYC, and six all-new songs! Will be available on Netflix.",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
+            
+            Movie(
+                title: "Barbie: Mermaid Power",
+                posterPath: "mermaidpowerposter.jpg",
+                backdropPath: "mermaidpowerbackdrop.jpg",
+                voteAverage: 4,
+                releaseDate: "2022-05-07",
+                overview: "A Little Golden Book based on the all-new Netflix special Barbie: Mermaid Power—premiering in fall 2022! This Little Golden Book is based on the all-new special Barbie: Mermaid Power, premiering in Fall 2022 on Netflix! Read about Barbie “Malibu” Roberts and Barbie “Brooklyn” Roberts as they turn into mermaids to save a sea kingdom in an epic underwater adventure!",
+                genres: [
+                    "Fantasy",
+                    "Action",
+                    "Adventure"
+                ]
+            ),
         ]
     }
 }
